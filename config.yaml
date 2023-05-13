@@ -1,0 +1,17 @@
+speech-to-text:
+  model-id: "jonatasgrosman/wav2vec2-large-xlsr-53-english"
+
+text-to-speech:
+  model-id: "microsoft/speecht5_tts"
+  vocoder: "microsoft/speecht5_hifigan"
+  voice_path: "xvectors.json"
+
+language-model:
+  model-id: "/home/aiot/liugh/Project/HF_models/models/vicuna-7b/"
+  device: "cuda"
+  num_gpus: 2
+  max_gpu_memory: null
+  load_8bit: true
+  cpu_offloading: true
+  temperature: 0.7
+  max_new_tokens: 512

@@ -1,0 +1,7 @@
+audio:
+- query_01.wav
+- query_02.wav
+name: intro_sorting
+query:
+- Tell me three sorting algorithms, just the names.
+- Which one has the least time complexity? Just tell me the name.
